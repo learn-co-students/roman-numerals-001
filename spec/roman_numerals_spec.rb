@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Integer, '#to_roman' do
 
   it 'converts 1 to I' do
