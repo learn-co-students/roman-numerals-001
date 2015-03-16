@@ -1,5 +1,5 @@
 ---
-  tags: todo, tdd, integers
+  tags: integers, object orientation, class modification, bonus
   languages: ruby
 ---
 # Roman Numerals
