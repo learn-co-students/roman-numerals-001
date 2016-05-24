@@ -1,35 +1,38 @@
+require 'pry'
+
 describe Integer, '#to_roman' do
 
-  it 'converts 1 to I' do
-    expect(1.to_roman).to eq('I')
-  end
+#  it 'converts 1 to I' do
+#    expect(1.to_roman).to eq('I')
+#  end#
 
-  it 'converts 2 to II' do
-    expect(2.to_roman).to eq('II')
-  end
+#  it 'converts 2 to II' do
+#    expect(2.to_roman).to eq('II')
+#  end#
 
-  it 'converts 3 to III' do
-    expect(3.to_roman).to eq('III')
-  end
+#  it 'converts 3 to III' do
+#    expect(3.to_roman).to eq('III')
+#  end#
 
-  it 'converts 4 to IV' do
-    expect(4.to_roman).to eq('IV')
-  end
+#  it 'converts 4 to IV' do
+#    expect(4.to_roman).to eq('IV')
+#  end#
 
-  it 'converts 5 to V' do
-    expect(5.to_roman).to eq('V')
-  end
+#  it 'converts 5 to V' do
+#    expect(5.to_roman).to eq('V')
+#  end#
 
-  it 'converts 6 to VI' do
-    expect(6.to_roman).to eq('VI')
-  end
+#  it 'converts 6 to VI' do
+#    expect(6.to_roman).to eq('VI')
+#  end#
 
-  it 'converts 9 to IX' do
-    expect(9.to_roman).to eq('IX')
-  end
+#  it 'converts 9 to IX' do
+#    expect(9.to_roman).to eq('IX')
+#  end
 
 
   it 'converts 27 XXVII' do
+    #binding.pry
     expect(27.to_roman).to eq('XXVII')
   end
 
